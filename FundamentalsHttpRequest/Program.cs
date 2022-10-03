@@ -15,9 +15,13 @@ namespace FundamentalsHttpRequest
 			if(httpResponse.IsSuccessStatusCode)
 			{
 				var content = await httpResponse.Content.ReadAsStringAsync();
-				List<Post>? posts = JsonSerializer.Deserialize<List<Post>>(content);
+				List<Post>? posts = JsonSerializer.Deserialize<List<Post>>(content,
+					new JsonSerializerOptions()
+					{
+						PropertyNameCaseInsensitive = true
+					}
+					);
 			}
-
         }
 	}
 }

@@ -1,4 +1,4 @@
-﻿using Generics.Models;
+﻿using Models;
 using Generics.Service;
 
 namespace Generics

@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Generics.Models
+namespace Models
 {
-    public  class Post
+    public class Post
     {
-        public int UserId { get; set; }
         public int Id { get; set; }
+        public int UserId { get; set; }
         public string Title { get; set; }
         public string Body { get; set; }
     }

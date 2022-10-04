@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fundamentals", "Fundamentals\Fundamentals.csproj", "{5A3FD413-7220-4664-B5A0-5B6C4D011EF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundamentalsHttpRequest", "FundamentalsHttpRequest\FundamentalsHttpRequest.csproj", "{4BBEC878-BD7F-4EE6-ABAA-2A9B4311A0C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FundamentalsHttpRequest", "FundamentalsHttpRequest\FundamentalsHttpRequest.csproj", "{4BBEC878-BD7F-4EE6-ABAA-2A9B4311A0C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{9854FAA3-93A8-42BF-AF82-35E0B7E6A530}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4BBEC878-BD7F-4EE6-ABAA-2A9B4311A0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BBEC878-BD7F-4EE6-ABAA-2A9B4311A0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BBEC878-BD7F-4EE6-ABAA-2A9B4311A0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9854FAA3-93A8-42BF-AF82-35E0B7E6A530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9854FAA3-93A8-42BF-AF82-35E0B7E6A530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9854FAA3-93A8-42BF-AF82-35E0B7E6A530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9854FAA3-93A8-42BF-AF82-35E0B7E6A530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
